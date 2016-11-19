@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://schemas.cordys.com/bpm/execution/1.0">
+	<soapenv:Header>
+	</soapenv:Header>
+	<soapenv:Body>
+		<ns:ExecuteProcess>
+			<ns:type>definition</ns:type>
+			<ns:receiver>3.Business Process Models/Asset Status Authority/CreateOrUpdateAsset_RBM1.0.bpm</ns:receiver>
+			<ns:message>
+				<CreateOrUpdateAssetInput xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.redbeemedia.com/asa/1.0">
+					<redbee-media>
+						<contract>
+							<clientID>CHANNEL4</clientID>
+							<clientExtIdentifier>64917</clientExtIdentifier>
+							<contractName>FIFTEEN TO ONE SERIES 7</contractName>
+							<expectedDeliveryFormat />
+							<productionCompany>REMEDY PRODUCTIONS LTD - GLASGOW</productionCompany>
+							<programmeManager>Sam Godfrey</programmeManager>
+							<expectedEpisodes>50</expectedEpisodes>
+							<expectedPictureColour>Colour</expectedPictureColour>
+							<department>Entertainment</department>
+							<editor>Sarah Lazenby</editor>
+							<expectedDeliveryDate>2016-09-09</expectedDeliveryDate>
+							<expectedShootFormat />
+							<expectedSound>Stereo</expectedSound>
+							<yearOfProduction>2016</yearOfProduction>
+							<lastUpdated>2016-10-03T15:10:57</lastUpdated>
+							<expectedDeliveryAspectRatio>_1_78x1</expectedDeliveryAspectRatio>
+							<expectedProtectedRatio>_1_55x1</expectedProtectedRatio>
+						</contract>
+						<content>
+							<clientID>CHANNEL4</clientID>
+							<contentType>PROGRAMME</contentType>
+							<title>FIFTEEN TO ONE SERIES 7</title>
+							<clientExtIdentifier>64917/012</clientExtIdentifier>
+							<episodeNumber>12</episodeNumber>
+							<lastUpdated>2016-10-03T15:10:57</lastUpdated>
+							<contentSubType />
+							<loan>N</loan>
+							<recommendedReviewType />
+						</content>
+					</redbee-media>
+				</CreateOrUpdateAssetInput>
+			</ns:message>
+		</ns:ExecuteProcess>
+	</soapenv:Body>
+</soapenv:Envelope>
